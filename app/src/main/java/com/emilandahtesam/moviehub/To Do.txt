@@ -1,0 +1,43 @@
+1. RecyclerView with:
+ - ✔ Poster
+ - ✔ Title
+ - ✔ Release date
+ - ✔ Popularity (%)
+ - ✔ Grid View Switch
+ - ✔ Movies category header
+ - ✔ Language indicator
+
+2. Movie details with:
+ - ✔ New details fragment
+ - ✔ Title
+ - ✔ Release date
+ - ✔ Popularity (%)
+ - ✔ Overview
+ - ✔ Data tunnel between fragments
+
+3. Settings menu with:
+ - ✔ Choose between popular movies, top rated movies and upcoming movies
+ - ✔ Save user selection
+ - ✔ Use user selection to modify the API fetch
+ - ✔ Language selection with 8 available languages
+ - ✔ Grid View status
+
+4. ✔ Documentation with the details of the project
+
+5. ✔ Screenshots of the applicaction in Portrait and landscape (in our case, is a video)
+
+Optional:
+ 1. ✔ Grid View with a button to switch to this view
+ 2. ✔ Search functionality and clear search box button
+ 3. ✔ LocalStorage (sharedPreferences)
+
+Second optional group:
+ 1. ✔ Upcoming movies in settings menu
+ 2. ✔ Choose country
+ 3. ✖ BBDD use to save internet requests
+ 4. ✖ Tablet version
+
+Nobody asked optional group:
+ 1. ✔ Code refactoring
+ 2. ✔ Custom icon
+ 3. ✔ APK

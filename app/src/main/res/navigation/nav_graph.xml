@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/MainFragment">
+
+    <fragment
+        android:id="@+id/MainFragment"
+        android:name="com.emilandahtesam.moviehub.MainFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_MainFragment_to_MovieDetailFragment"
+            app:destination="@id/MovieDetailFragment"
+            app:enterAnim="@anim/slide_in_from_right_to_left"
+            app:exitAnim="@anim/slide_out_from_right_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left_to_right"
+            app:popExitAnim="@anim/slide_out_from_left_to_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/MovieDetailFragment"
+        android:name="com.emilandahtesam.moviehub.MovieDetailFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_movie_detail" >
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument android:name="releaseDate"
+            app:argType="string" />
+        <argument
+            android:name="voteAverage"
+            app:argType="string" />
+        <argument
+            android:name="poster"
+            app:argType="string" />
+        <argument
+            android:name="overview"
+            app:argType="string" />
+    </fragment>
+    <activity
+        android:id="@+id/SettingsActivity"
+        android:name="com.emilandahtesam.moviehub.SettingsActivity"
+        android:label="@string/app_name"
+        tools:layout="@layout/settings_activity">
+    </activity>
+</navigation>

@@ -1,0 +1,68 @@
+<!-- movie_list_item.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/posterImage"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder_image" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/posterImage"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/releaseDateIcon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/titleText"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="17dp"
+        android:layout_toEndOf="@+id/posterImage"
+        android:tint="@color/icon"
+        app:srcCompat="@drawable/date" />
+
+    <TextView
+        android:id="@+id/releaseDateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleText"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@+id/releaseDateIcon"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/voteAverageIcon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/releaseDateIcon"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:layout_toEndOf="@+id/posterImage"
+        android:tint="@color/icon"
+        app:srcCompat="@drawable/like" />
+
+    <TextView
+        android:id="@+id/voteAverageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/releaseDateText"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/voteAverageIcon"
+        android:textSize="16sp" />
+
+</RelativeLayout>

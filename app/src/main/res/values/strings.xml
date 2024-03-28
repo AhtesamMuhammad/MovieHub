@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Movie Hub</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_reload">Reload</string>
+    <string name="searchbox_placeholder">Search…</string>
+    <string name="search_results_text">Search results</string>
+    <string name="loading_movies_text">Loading movies…</string>
+    <string name="no_movies_found_text">No movies found</string>
+    <string name="searchbox_cleared_text">The search box has been cleared successfully</string>
+    <string name="language_text">Language: %s</string>
+    <string name="overview_title_text">Overview:</string>
+    <string name="settings_header">Movie Hub Settings</string>
+    <string name="title_activity_settings">Settings Activity</string>
+    <string name="movies_list_category">Movies list category</string>
+    <string name="movie_data_language">Movie data language</string>
+    <string name="grid_view_status">Grid View status</string>
+    <string name="lorem_ipsum">lorem ipsum</string>
+    <string name="movies_text">Movies</string>
+</resources>
+
