@@ -1,5 +1,7 @@
 # MovieHub
 
+This project consists of a mobile application where I learned how to use and interpret the MovieDB API to retrieve information and display it in the form of listings, either individually or in groups of three items. In addition, I implemented a search engine that allows filtering movies according to specific criteria. I also added a configuration page where several additional changes can be made, such as changing the language and selecting categories such as popular movies, upcoming releases and top rated movies.
+
 > [!IMPORTANT]
 > **Before executing the code:**
 > Get a MovieDB API Key: You must `register a MovieDB account and get an API Key`. This key is needed to access the movies and series database.
@@ -7,8 +9,6 @@
 > 2. Go to line 34 and replace "YOUR_API_KEY" with the API Key you obtained from MovieDB.
 > 
 > This will allow the application to access the database and display results correctly.
- 
-This project consists of a mobile application where I learned how to use and interpret the MovieDB API to retrieve information and display it in the form of listings, either individually or in groups of three items. In addition, I implemented a search engine that allows filtering movies according to specific criteria. I also added a configuration page where several additional changes can be made, such as changing the language and selecting categories such as popular movies, upcoming releases and top rated movies.
 
 ### Featured Features
 Animations
