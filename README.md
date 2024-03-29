@@ -10,21 +10,19 @@ This project consists of a mobile application where I learned how to use and int
 > 
 > This will allow the application to access the database and display results correctly.
 
-### Featured Features
-Animations
-Input and output animations have been created to provide smooth transitions between application screens. These animations add a pleasing visual effect when moving between fragments.
-
-### Icons and Layouts
-Several icons were imported for use in the application interface. In addition, all necessary layouts for the application were designed and developed, including the main layout, movie detail, individual movie list items and the settings menu.
-
-### Menu and Navigation
-A menu with options for accessing application settings and reloading data was implemented. The application navigation follows a clear and organized layout, facilitating the user experience when moving between different parts of the application.
+## Featured Features
 
 ### Application Logic
 A package structure has been created to handle the connection and queries to the MovieDB API, as well as the handling of movie information. This includes classes to perform API requests, map the received data, and manage the user interface logic.
 
 ### Technologies Used
-Retrofit: This was used to simplify the management of API calls and data processing.
-Glide: Used for image loading, providing a smooth and efficient visual experience.
-SharedPreferences: Used to store and manage application configuration preferences.
-SafeArgs Plugin: It was installed to ensure security in the communication between fragments.
+- **Retrofit:** This was used to simplify the management of API calls and data processing.
+- **Glide:** Used for image loading, providing a smooth and efficient visual experience.
+- **SharedPreferences:** Used to store and manage application configuration preferences.
+- **SafeArgs Plugin:** It was installed to ensure security in the communication between fragments.
+
+### Menu and Navigation
+Options for accessing application settings and reloading data was implemented. The application navigation follows a clear and organized layout, facilitating the user experience when moving between different parts of the application.
+
+### Icons and Layouts
+Several icons were imported for use in the application interface. In addition, all necessary layouts for the application were designed and developed, including the main layout, movie details, individual movie list items (likes, release date) and the configuration menu.
